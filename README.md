@@ -1,30 +1,18 @@
-# seed
+# 种子习惯（模仿制作）
+## 预期技术栈
+ - Vue.js 2.0
+ - Vue-router
+ - Vuex
+ - Axios
+ - LocalStorage && Cookie
+ - Flex布局
+ - KOA框架
+ - JSONP跨域
+ 
+## 小说明 
+这个小项目还在开发中，是我自己一点点琢磨写的，应该有不规范的地方，还请多指教^0^。  
+预计在4月中旬能完成它，后台也会用简单的Node.js后台+KOA框架来完成。
+另外也是帮助自己学习Vue.js，也帮助后面暑假自己要制作的实训项目。
+详细的制作日记请戳这里：[http://www.mochiko.cn/index.php/archives/17/][1]
 
-> a little application
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+ [1]: http://www.mochiko.cn/index.php/archives/17/
