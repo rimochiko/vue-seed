@@ -6,13 +6,13 @@
     </div>
 
     <div v-if="isNone === false" class="task_list">
-      <div class="task_single">
+      <router-link class="task_single" to="/">
         <div class="icon_task" v-bind:style="{backgroundImage: 'url('+url+')'}"></div>
         <div class="info_task">
           <p class="p_main">刷题库</p>
           <p class="p_des">已坚持4天</p>
         </div>
-      </div>
+      </router-link>
     </div>
 
   </div>

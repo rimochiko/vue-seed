@@ -6,9 +6,13 @@ import Mine from '../components/Mine/Mine'
 import Ground from '../components/Ground/Ground'
 import NewHabit from '../components/NewHabit/NewHabit'
 import HabitList from '../components/NewHabit/HabitList'
+import Login from '../components/Verify/Login'
+import Register from '../components/Verify/Register'
+import MySet from '../components/Set/Set'
 
 Vue.use(Router)
 let router = new Router({
+  mode: 'history',
   linkActiveClass: 'active',
   linkExactActiveClass: 'active',
   routes: [
@@ -42,6 +46,21 @@ let router = new Router({
           component: HabitList
         }
       ]
+    },
+    {
+      path: '/login',
+      name: '登录',
+      component: Login
+    },
+    {
+      path: '/register',
+      name: '注册',
+      component: Register    
+    },
+    {
+      path: '/set',
+      name: '个人设置',
+      component: MySet
     }
   ]
 })

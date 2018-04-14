@@ -82,7 +82,7 @@ export default {
     }
   },
   mounted () {
-  	this.isLoading = false;
+    this.isLoading = false
   },
   components: {
     Loading

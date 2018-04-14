@@ -6,7 +6,7 @@
       <router-link to="/newhabit/sports">运动</router-link>
       <router-link to="/newhabit/study">学习</router-link>
       <router-link to="/newhabit/time">时间</router-link>
-      <router-link to="/newhabit/think">思考</router-link>  
+      <router-link to="/newhabit/think">思考</router-link>
     </div>
     <router-view></router-view>
   </div>
@@ -33,8 +33,9 @@ export default {
   display: flex;
   flex: 1;
   justify-content: center;
-  padding: 1rem 0;
+  padding: .6rem 0;
   border-bottom: 1px solid #ddd;
+  font-size: .9rem;
 }
 .wrapper_newhabit .nav_habit .active {
   color: #3CCC77;

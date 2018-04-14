@@ -46,7 +46,7 @@
             <p class="p_main">今天还去吃了粉</p>
             <p class="p_des">- 2018.01.31 -</p>
           </div>
-        </div> 
+        </div>
       </div>
 
     </div>
@@ -168,7 +168,7 @@ export default {
 
 .content_history .content_single .p_main {
   font-size: .8rem;
-  color: #a39f64; 
+  color: #a39f64;
 }
 
 .content_history .content_single .p_des {
